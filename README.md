@@ -1,70 +1,51 @@
-# Data Professionals Survey Dashboard
+# Power BI for Data Analysis Portfolio
 
-## Project Overview
+Welcome to my **Power BI Portfolio Repository**.
+This Portfolio is to showcase **Data analytics projects** built with *Power BI, Power Query and DAX*, focusing on data cleaning, modelling, and visualisation for insights into the data.
 
-An interactive three-page Power BI dashboard exploring survey responses from data professionals. The project analyses salary trends, career progression, professional skills and technology preferences across different job roles and countries.
+---
 
+## Overview
+
+This portfolio includes one professional business style dashboard built from a public data set:
+
+| Project | Theme of Data | Source | Goal |
+| --------|---------------|--------|------|
+| Data Professional Survey | Answers of Survey given by Data Professionals on their Job | [Data Professional Survey Responses](https://github.com/Tiernan-Mckenna/Data-Professionals-Survey-Power-Bi-Analysis/blob/main/Power%20Bi%20Data%20Survey/Data/Power%20BI%20-%20Project.xlsx) | To find links between data Professionals personal data, "(Gender, Age, and Education etc)", and Salary. |
+
+---
+
+## 1️⃣ **Data Professional Survey Dashboard**
+**Goal.**
 The objective was to transform survey data into an interactive report that allows users to explore industry trends and compare different professional groups.
 
-## Dashboard Pages
-
-### 1. Overview – Data Professionals
-- Total survey respondents and key demographic KPIs.
-- Average salary by job title.
-- Distribution of respondents by country.
-- Programming languages used across different job roles.
-- Work-life balance and salary satisfaction.
-
-### 2. Salary & Career Analysis
-- Salary comparisons across different job titles.
-- Salary analysis by demographic categories.
-- Career switching trends.
-- Perceived difficulty of entering the data industry.
-
-### 3. Skills & Technology
-- Programming language preferences across job roles.
-- Comparison of technical skills between professions.
-- Exploration of technology trends within the data industry.
-
-## Technologies Used
-
+**Technologies used**
 - Microsoft Power BI
 - Power Query
 - DAX
 - Data visualisation
 - Data cleaning and transformation
 
-## Key Features
+**Data Cleaning**
+- Using *Power Query* to remove nulls and update field, such as salary, into suitable formats for visualisation.
+- Standardising columns, such as Job Role, as in the survey free text was an option.
+- Creating new measures and new columns, using *Bins* and *Groups*, to create ranges for columns such as Age for better visualisation and anlaysis.
 
+**Key Features**
 - Three-page interactive dashboard.
 - Dynamic slicers with multiple-selection functionality.
-- Synchronized filters across report pages.
 - Clear-all-filters functionality.
 - KPI cards and interactive visualisations.
 - Respondent counts alongside salary comparisons.
 
-## Data Preparation
+**Design Notes**
+- Main Page (1920x1080 canvas), secondary pages (1280x720 canvas)
+- Consistent Theme and Layout across pages
+- Conditional formatting on gauges to help showcase ratings.
 
-Survey data was imported into Power BI and prepared for analysis. Data cleaning, transformation and calculated measures were used to support the dashboard's visualisations and analytical functionality.
+**Files**
+- Dashboard: [Power Bi Data Survey/Dashboard](https://github.com/Tiernan-Mckenna/Data-Professionals-Survey-Power-Bi-Analysis/tree/main/Power%20Bi%20Data%20Survey/Dashboard)
+- Dashboards Images: [Power Bi Data Survey/ScreenShots](https://github.com/Tiernan-Mckenna/Data-Professionals-Survey-Power-Bi-Analysis/tree/main/Power%20Bi%20Data%20Survey/ScreenShots)
 
-*Update this section to describe the specific cleaning and transformation steps you performed.*
+---
 
-## Key Findings
-
-Add three to five findings from your own analysis here, supported by actual figures from the dataset.
-
-Examples of areas explored:
-- Salary differences between professional roles.
-- Differences in salary across countries.
-- Most commonly used programming languages.
-- Career transition experiences.
-
-## Project Files
-
-- `Dashboard/` – Power BI report.
-- `Screenshots/` – Images of the three dashboard pages.
-- `Data/` – Source dataset, if redistribution is permitted.
-
-## Project Purpose
-
-This project was developed to strengthen practical skills in Power BI, data analysis, data visualisation and business intelligence, with an emphasis on presenting information through interactive dashboards.
