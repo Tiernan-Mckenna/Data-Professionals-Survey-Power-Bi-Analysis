@@ -11,7 +11,7 @@ This portfolio includes one professional business style dashboard built from a p
 
 | Project | Theme of Data | Source | Goal |
 | --------|---------------|--------|------|
-| Data Professional Survey | Answers of Survey given by Data Professionals on their Job | [Data Professional Survey Responses](https://github.com/Tiernan-Mckenna/Data-Professionals-Survey-Power-Bi-Analysis/blob/main/Power%20Bi%20Data%20Survey/Data/Power%20BI%20-%20Project.xlsx) | To find links between data Professionals personal data, "(Gender, Age, and Education etc)", and Salary. |
+| Data Professional Survey | Answers of Survey given by Data Professionals on their Job | [Data Professional Survey Responses](https://github.com/Tiernan-Mckenna/Data-Professionals-Survey-Power-Bi-Analysis/blob/main/Power%20Bi%20Data%20Survey/Data/Power%20BI%20-%20Project.xlsx) | To find links between data Professionals personal data, (Gender, Age, and Education etc), and Salary. |
 
 ---
 
